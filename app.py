@@ -267,7 +267,7 @@ with tab1:
             text=[f"{v}%" for v in DEPT_DATA['Attrition Rate']], textposition='outside',
             textfont=dict(color='#8899B4', size=12)
         ))
-        fig.update_layout(**PLOTLY_LAYOUT, height=250, yaxis=dict(gridcolor='#1E2D4A'))
+        fig.update_layout(**PLOTLY_LAYOUT, height=250)
         fig.update_xaxes(range=[0, 28], title_text="Attrition Rate (%)")
         st.plotly_chart(fig, use_container_width=True)
         st.markdown('</div>', unsafe_allow_html=True)

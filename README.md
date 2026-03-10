@@ -8,3 +8,39 @@ The project combines:
 • survival analysis modeling  
 • an interactive analytics dashboard  
 • an AI chatbot that explains insights from the data
+
+## Analytical Approach
+
+Instead of a simple classification model, this project uses **time-to-event modeling**.
+
+Techniques used:
+
+• Kaplan–Meier survival curves  
+• Cox proportional hazards model  
+• hazard ratio interpretation  
+• attrition risk scoring
+
+## Interactive Dashboard
+
+An interactive dashboard built with Streamlit allows users to explore the results of the survival analysis.
+
+The dashboard includes:
+
+• key attrition metrics  
+• survival curves by employee segment  
+• hazard ratio interpretation  
+• attrition risk watchlist
+
+The dashboard translates statistical outputs into insights that HR leaders can act on.
+
+## AI Chatbot
+
+The project also includes an AI chatbot that allows users to ask questions about the attrition analysis.
+
+Example questions the chatbot can answer:
+
+• Which employees are at the highest attrition risk?  
+• How does overtime impact employee survival probability?  
+• What factors most strongly increase attrition hazard?
+
+The chatbot uses a large language model to explain insights derived from the analysis.
